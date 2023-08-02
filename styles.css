@@ -7,7 +7,17 @@ body {
     border: 5px solid rgb(0, 195, 255);
     border-radius: 10px;
     height: 400px;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+} 
+
 
 .link-button {
     text-decoration: none;
